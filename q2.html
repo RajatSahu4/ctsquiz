@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		user registeration page
+	</title>
+</head>
+<body bgcolor="blue">
+<center>
+	<form>
+		<table>
+		<tr><th>User Id</th><td><input type="text" name="" placeholder="User Id"  required pattern="[0-9]{8,12}"></td></tr>
+		<tr><th>Password</th><td><input type="password" name="" placeholder="Password" required pattern="{8,12}"></td></tr>
+		<tr><th>Name</th><td><input type="text" name="" placeholder="name" required pattern="{3,25}"></td></tr>
+		<tr><th>address</th><td><input type="text" name="" placeholder="address"></td></tr>
+		<tr><th>select country</th><td><select>choose country
+			<option>India</option>
+			<option>Australia</option>
+			<option>Russia</option>
+			<option>China</option>
+			<option>Pakistan</option></select>
+		</td></tr>
+		<tr><th>pin code</th><td><input type="text" name="" placeholder="pin code" required pattern="[0-9]{1,6}"></td></tr>
+		<tr><th>gender</th>
+			<td><input type="radio" value="male" name="gender">male<input type="radio" value="female" name="gender">female
+			</td></tr>
+
+		<tr><th>Languages Known</th><td>
+			<input name="" type="checkbox" value="hindi">hindi
+			<input name="" type="checkbox" value="english">english
+			<input name="" type="checkbox" value="japnese">japanese
+		</td></tr>
+		<tr><th>enter additional details</th><td><input type="text" name="" placeholder="enter additional details"></td></tr>
+		<tr><td><input type="submit" name="" value="submit"></td></tr>
+
+		
+		
+		</table>
+	</form>
+</center>
+</body>
+</html>
